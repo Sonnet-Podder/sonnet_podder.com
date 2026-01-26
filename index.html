@@ -1,250 +1,252 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>      
+<html lang="en">      
+      
+<head>      
+    <meta charset="UTF-8">      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    <meta name="description" content="Personal website of Sonnet Podder, a professional in statistics, data analysis, and machine learning.">      
+    <meta name="author" content="Sonnet Podder">      
+    <title>Sonnet Podder | Personal Website</title>      
+    <link rel="stylesheet" href="styles.css">      
+    <style>      
+        /* General Styles */      
+        body {      
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+            margin: 0;      
+            padding: 0;      
+            background: #f4f7fc;      
+            color: #333;      
+        }      
+      
+        .container {      
+            width: 90%;      
+            max-width: 1200px;      
+            margin: 0 auto;      
+        }      
+      
+        /* Header Section */      
+        header {      
+            background-color: #004080;      
+            color: white;      
+            text-align: center;      
+            padding: 30px 20px;      
+            border-bottom: 4px solid #003366;      
+        }      
+      
+        header img {      
+            border-radius: 50%;      
+            width: 150px;      
+            height: 150px;      
+            object-fit: cover;      
+            margin-bottom: 15px;      
+        }      
+      
+        header h1 {      
+            margin: 0;      
+            font-size: 2.8em;      
+        }      
+      
+        header p {      
+            margin: 10px 0 0;      
+            font-size: 1.3em;      
+            font-weight: 300;      
+        }      
+      
+        /* Navigation Menu */      
+        nav ul {      
+            display: flex;      
+            justify-content: center;      
+            list-style: none;      
+            background-color: #003366;      
+            margin: 0;      
+            padding: 10px 0;      
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);      
+        }      
+      
+        nav ul li {      
+            margin: 0 20px;      
+        }      
+      
+        nav ul li a {      
+            color: white;      
+            text-decoration: none;      
+            font-size: 1.1em;      
+            font-weight: 500;      
+        }      
+      
+        nav ul li a:hover {      
+            text-decoration: underline;      
+        }      
+      
+        /* Section Styles */      
+        .section {      
+            padding: 40px 20px;      
+        }      
+      
+        h2 {      
+            color: #004080;      
+            font-size: 2.2em;      
+            margin-bottom: 15px;      
+        }      
+      
+        h3 {      
+            color: #003366;      
+            font-size: 1.8em;      
+            margin-top: 20px;      
+        }      
+      
+        .section p,      
+        .section ul {      
+            font-size: 1.1em;      
+            line-height: 1.6;      
+        }      
+      
+        .section ul {      
+            padding-left: 20px;      
+        }      
+      
+        .section ul li {      
+            margin-bottom: 5px;      
+        }      
+      
+        /* Resume Section */      
+        .download-btn {      
+            display: inline-block;      
+            padding: 12px 24px;      
+            background-color: #004080;      
+            color: white;      
+            text-decoration: none;      
+            font-size: 1.1em;      
+            border-radius: 5px;      
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);      
+        }      
+      
+        .download-btn:hover {      
+            background-color: #003366;      
+        }      
+      
+        /* Footer Section */      
+        footer {      
+            text-align: center;      
+            padding: 20px 20px;      
+            background-color: #003366;      
+            color: white;      
+        }      
+      
+        footer p {      
+            font-size: 1.1em;      
+        }      
+      
+        /* Link Styles */      
+        a {      
+            color: #004080;      
+            text-decoration: none;      
+        }      
+      
+        a:hover {      
+            text-decoration: underline;      
+        }      
+    </style>      
+</head>      
+      
+<body>      
+    <!-- Header Section -->      
+    <header>      
+        <div class="container">      
+            <img src="your-photo.jpg" alt="Sonnet Podder"> <!-- Placeholder image -->      
+            <h1>Sonnet Podder</h1>      
+            <p>Researcher | Statistician | Data Analyst | Statistical Learning Enthusiast</p>      
+        </div>      
+    </header>      
+      
+    <!-- Navigation Menu -->      
+    <nav>      
+        <ul>      
+            <li><a href="#about">About Me</a></li>      
+            <li><a href="#research">Research & Work</a></li>      
+            <li><a href="#resume">Resume</a></li>      
+            <li><a href="#portfolio">Portfolio</a></li>      
+            <li><a href="#contact">Contact</a></li>      
+        </ul>      
+    </nav>      
+      
+    <!-- About Me Section -->      
+    <section id="about" class="section">      
+        <div class="container">      
+            <h2>About Me</h2>      
+            <p>I am Sonnet Podder, a passionate statistician and data scientist. I am currently pursuing an <strong>MSc in Big Data and Data Science (with Advanced Practice)</strong> at <strong>Northumbria University London</strong>, building expertise in big data analytics, machine learning, cloud-based data solutions, and professional practice through internships and projects.  
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website of Sonnet Podder, a professional in statistics, data analysis, and machine learning.">
-    <meta name="author" content="Sonnet Podder">
-    <title>Sonnet Podder | Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* General Styles */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f7fc;
-            color: #333;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        /* Header Section */
-        header {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-            border-bottom: 4px solid #003366;
-        }
-
-        header img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.8em;
-        }
-
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.3em;
-            font-weight: 300;
-        }
-
-        /* Navigation Menu */
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            background-color: #003366;
-            margin: 0;
-            padding: 10px 0;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        nav ul li {
-            margin: 0 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1em;
-            font-weight: 500;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Section Styles */
-        .section {
-            padding: 40px 20px;
-        }
-
-        h2 {
-            color: #004080;
-            font-size: 2.2em;
-            margin-bottom: 15px;
-        }
-
-        h3 {
-            color: #003366;
-            font-size: 1.8em;
-            margin-top: 20px;
-        }
-
-        .section p,
-        .section ul {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-
-        .section ul {
-            padding-left: 20px;
-        }
-
-        .section ul li {
-            margin-bottom: 5px;
-        }
-
-        /* Resume Section */
-        .download-btn {
-            display: inline-block;
-            padding: 12px 24px;
-            background-color: #004080;
-            color: white;
-            text-decoration: none;
-            font-size: 1.1em;
-            border-radius: 5px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .download-btn:hover {
-            background-color: #003366;
-        }
-
-        /* Footer Section */
-        footer {
-            text-align: center;
-            padding: 20px 20px;
-            background-color: #003366;
-            color: white;
-        }
-
-        footer p {
-            font-size: 1.1em;
-        }
-
-        /* Link Styles */
-        a {
-            color: #004080;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-
-<body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <img src="your-photo.jpg" alt="Sonnet Podder"> <!-- Placeholder image -->
-            <h1>Sonnet Podder</h1>
-            <p>Researcher | Statistician | Data Analyst | Statistical Learning Enthusiast</p>
-        </div>
-    </header>
-
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#research">Research & Work</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- About Me Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am Sonnet Podder, a passionate statistician with a Master of Science in Statistics (2021) and a Bachelor of Science in Statistics (2020) from Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Bangladesh. My expertise lies in optimization techniques, high-dimensional data analysis, machine learning, and public health statistics. I have conducted research on critical topics such as geriatric depression and the impact of meteorological indicators on the Covid-19 pandemic in Bangladesh. With strong skills in Python, R, SPSS, and other statistical tools, I aspire to contribute to solving public health challenges and advancing statistical methodologies, particularly in addressing depression among the elderly in Bangladesh. I am currently available to collaborate on research projects, particularly in the fields of bioinformatics and public health.</p>
-        </div>
-    </section>
-
-    <!-- Research Interests Section -->
-    <section id="interests" class="section">
-        <div class="container">
-            <h2>Research Interests</h2>
-            <p>Optimization Techniques, High-Dimensional Data Analysis, Machine Learning, Data Mining, Brain Mapping, Bioinformatics and Statistical Genetics, Public Health, Environmental Statistics, Time Series Analysis, Statistical Modeling, Inferential Statistics.</p>
-        </div>
-    </section>
-
-    <!-- Research & Work Section -->
-    <section id="research" class="section">
-        <div class="container">
-            <h2>Research & Work</h2>
-            <ul>
-                <li><strong>Risk Factors of Geriatric Depression:</strong> Determinants of depressive symptoms among elderly Bangladeshi people.</li>
-                <li><strong>Effect of Meteorological Indicators on Covid-19:</strong> A case study of Dhaka and Rajshahi regions.</li>
-            </ul>
-            <h3> Interested Projects:</h3>
-            <ul>
-                <li>Brain mapping and statistical genetics for bioinformatics applications.</li>
-                <li>Optimization techniques and data imputation in statistical modeling.</li>
-                <li>Time series analysis and public health trend forecasting.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume" class="section">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>Download my detailed resume:</p>
-            <a href="SonnetPodderCV.pdf" class="download-btn" download>Download Resume</a>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <p>Explore some of my key accomplishments:</p>
-            <ul>
-                <li>Best Poster Award at National Statistics Day 2022</li>
-                <li>Vice President of the District Student Club</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Connect with me:</p>
-            <ul>
-                <li>Email (Academic): <a href="mailto:16sta113@bsmrstu.edu.bd">16sta113@bsmrstu.edu.bd</a></li>
-                <li>Email (Personal): <a href="mailto:sonnetpodder42@gmail.com">sonnetpodder42@gmail.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/sonnet-podder-bsmrstu/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sonnet-podder-bsmrstu</a></li>
-                <li>GitHub: <a href="https://github.com/Sonnet-Podder" target="_blank" rel="noopener noreferrer">github.com/Sonnet-Podder</a></li>
-                <li>ResearchGate: <a href="https://www.researchgate.net/profile/Sonnet-Podder" target="_blank" rel="noopener noreferrer">ResearchGate Profile</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Sonnet Podder. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-
+            I also hold a <strong>Master of Science in Statistics (2021)</strong> and a <strong>Bachelor of Science in Statistics (2020)</strong> from <strong>Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Bangladesh</strong>. My expertise spans optimization techniques, high-dimensional data analysis, statistical learning, and public health statistics. I have conducted research on critical topics such as geriatric depression and the impact of meteorological indicators on the Covid-19 pandemic in Bangladesh. With strong skills in Python, R, SPSS, and other statistical tools, I aspire to contribute to solving public health challenges and advancing statistical methodologies, particularly in addressing depression among the elderly in Bangladesh. I am currently available to collaborate on research projects, especially in bioinformatics, public health, and advanced data science applications.</p>      
+        </div>      
+    </section>      
+      
+    <!-- Research Interests Section -->      
+    <section id="interests" class="section">      
+        <div class="container">      
+            <h2>Research Interests</h2>      
+            <p>Optimization Techniques, High-Dimensional Data Analysis, Machine Learning, Data Mining, Brain Mapping, Bioinformatics and Statistical Genetics, Public Health, Environmental Statistics, Time Series Analysis, Statistical Modeling, Inferential Statistics, Big Data Analytics, Cloud-Based Data Solutions, Applied Data Science.</p>      
+        </div>      
+    </section>      
+      
+    <!-- Research & Work Section -->      
+    <section id="research" class="section">      
+        <div class="container">      
+            <h2>Research & Work</h2>      
+            <ul>      
+                <li><strong>Risk Factors of Geriatric Depression:</strong> Determinants of depressive symptoms among elderly Bangladeshi people.</li>      
+                <li><strong>Effect of Meteorological Indicators on Covid-19:</strong> A case study of Dhaka and Rajshahi regions.</li>      
+            </ul>      
+            <h3>Interested Projects:</h3>      
+            <ul>      
+                <li>Brain mapping and statistical genetics for bioinformatics applications.</li>      
+                <li>Optimization techniques and data imputation in statistical modeling.</li>      
+                <li>Time series analysis and public health trend forecasting.</li>      
+            </ul>      
+        </div>      
+    </section>      
+      
+    <!-- Resume Section -->      
+    <section id="resume" class="section">      
+        <div class="container">      
+            <h2>Resume</h2>      
+            <p>Download my detailed resume:</p>      
+            <a href="SonnetPodderCV.pdf" class="download-btn" download>Download Resume</a>      
+        </div>      
+    </section>      
+      
+    <!-- Portfolio Section -->      
+    <section id="portfolio" class="section">      
+        <div class="container">      
+            <h2>Portfolio</h2>      
+            <p>Explore some of my key accomplishments:</p>      
+            <ul>      
+                <li>Best Poster Award at National Statistics Day 2022</li>      
+                <li>Vice President of the District Student Club</li>      
+            </ul>      
+        </div>      
+    </section>      
+      
+    <!-- Contact Section -->      
+    <section id="contact" class="section">      
+        <div class="container">      
+            <h2>Contact</h2>      
+            <p>Connect with me:</p>      
+            <ul>      
+                <li>Email (Academic): <a href="mailto:16sta113@bsmrstu.edu.bd">16sta113@bsmrstu.edu.bd</a></li>      
+                <li>Email (Personal): <a href="mailto:sonnetpodder42@gmail.com">sonnetpodder42@gmail.com</a></li>      
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/sonnet-podder-bsmrstu/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sonnet-podder-bsmrstu</a></li>      
+                <li>GitHub: <a href="https://github.com/Sonnet-Podder" target="_blank" rel="noopener noreferrer">github.com/Sonnet-Podder</a></li>      
+                <li>ResearchGate: <a href="https://www.researchgate.net/profile/Sonnet-Podder" target="_blank" rel="noopener noreferrer">ResearchGate Profile</a></li>      
+            </ul>      
+        </div>      
+    </section>      
+      
+    <!-- Footer -->      
+    <footer>      
+        <div class="container">      
+            <p>&copy; 2026 Sonnet Podder. All rights reserved.</p>      
+        </div>      
+    </footer>      
+</body>      
+      
 </html>
