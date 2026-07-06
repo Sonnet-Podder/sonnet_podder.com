@@ -1,252 +1,1394 @@
-<!DOCTYPE html>      
-<html lang="en">      
-      
-<head>      
-    <meta charset="UTF-8">      
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
-    <meta name="description" content="Personal website of Sonnet Podder, a professional in statistics, data analysis, and machine learning.">      
-    <meta name="author" content="Sonnet Podder">      
-    <title>Sonnet Podder | Personal Website</title>      
-    <link rel="stylesheet" href="styles.css">      
-    <style>      
-        /* General Styles */      
-        body {      
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
-            margin: 0;      
-            padding: 0;      
-            background: #f4f7fc;      
-            color: #333;      
-        }      
-      
-        .container {      
-            width: 90%;      
-            max-width: 1200px;      
-            margin: 0 auto;      
-        }      
-      
-        /* Header Section */      
-        header {      
-            background-color: #004080;      
-            color: white;      
-            text-align: center;      
-            padding: 30px 20px;      
-            border-bottom: 4px solid #003366;      
-        }      
-      
-        header img {      
-            border-radius: 50%;      
-            width: 150px;      
-            height: 150px;      
-            object-fit: cover;      
-            margin-bottom: 15px;      
-        }      
-      
-        header h1 {      
-            margin: 0;      
-            font-size: 2.8em;      
-        }      
-      
-        header p {      
-            margin: 10px 0 0;      
-            font-size: 1.3em;      
-            font-weight: 300;      
-        }      
-      
-        /* Navigation Menu */      
-        nav ul {      
-            display: flex;      
-            justify-content: center;      
-            list-style: none;      
-            background-color: #003366;      
-            margin: 0;      
-            padding: 10px 0;      
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);      
-        }      
-      
-        nav ul li {      
-            margin: 0 20px;      
-        }      
-      
-        nav ul li a {      
-            color: white;      
-            text-decoration: none;      
-            font-size: 1.1em;      
-            font-weight: 500;      
-        }      
-      
-        nav ul li a:hover {      
-            text-decoration: underline;      
-        }      
-      
-        /* Section Styles */      
-        .section {      
-            padding: 40px 20px;      
-        }      
-      
-        h2 {      
-            color: #004080;      
-            font-size: 2.2em;      
-            margin-bottom: 15px;      
-        }      
-      
-        h3 {      
-            color: #003366;      
-            font-size: 1.8em;      
-            margin-top: 20px;      
-        }      
-      
-        .section p,      
-        .section ul {      
-            font-size: 1.1em;      
-            line-height: 1.6;      
-        }      
-      
-        .section ul {      
-            padding-left: 20px;      
-        }      
-      
-        .section ul li {      
-            margin-bottom: 5px;      
-        }      
-      
-        /* Resume Section */      
-        .download-btn {      
-            display: inline-block;      
-            padding: 12px 24px;      
-            background-color: #004080;      
-            color: white;      
-            text-decoration: none;      
-            font-size: 1.1em;      
-            border-radius: 5px;      
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);      
-        }      
-      
-        .download-btn:hover {      
-            background-color: #003366;      
-        }      
-      
-        /* Footer Section */      
-        footer {      
-            text-align: center;      
-            padding: 20px 20px;      
-            background-color: #003366;      
-            color: white;      
-        }      
-      
-        footer p {      
-            font-size: 1.1em;      
-        }      
-      
-        /* Link Styles */      
-        a {      
-            color: #004080;      
-            text-decoration: none;      
-        }      
-      
-        a:hover {      
-            text-decoration: underline;      
-        }      
-    </style>      
-</head>      
-      
-<body>      
-    <!-- Header Section -->      
-    <header>      
-        <div class="container">      
-            <img src="your-photo.jpg" alt="Sonnet Podder"> <!-- Placeholder image -->      
-            <h1>Sonnet Podder</h1>      
-            <p>Researcher | Statistician | Data Analyst | Statistical Learning Enthusiast</p>      
-        </div>      
-    </header>      
-      
-    <!-- Navigation Menu -->      
-    <nav>      
-        <ul>      
-            <li><a href="#about">About Me</a></li>      
-            <li><a href="#research">Research & Work</a></li>      
-            <li><a href="#resume">Resume</a></li>      
-            <li><a href="#portfolio">Portfolio</a></li>      
-            <li><a href="#contact">Contact</a></li>      
-        </ul>      
-    </nav>      
-      
-    <!-- About Me Section -->      
-    <section id="about" class="section">      
-        <div class="container">      
-            <h2>About Me</h2>      
-            <p>I am Sonnet Podder, a passionate statistician and data scientist. I am currently pursuing an <strong>MSc in Big Data and Data Science Technology (with Advanced Practice)</strong> at <strong>Northumbria University London</strong>, building expertise in big data analytics, machine learning, cloud-based data solutions, and professional practice through internships and projects.  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            I also hold a <strong>Master of Science in Statistics (2021)</strong> and a <strong>Bachelor of Science in Statistics (2020)</strong> from <strong>Gopalganj Science and Technology University, Bangladesh</strong>. My expertise spans optimization techniques, high-dimensional data analysis, statistical learning, and public health statistics. I have conducted research on critical topics such as geriatric depression and the impact of meteorological indicators on the Covid-19 pandemic in Bangladesh. With strong skills in Python, R, SPSS, and other statistical tools, I aspire to contribute to solving public health challenges and advancing statistical methodologies, particularly in addressing depression among the elderly in Bangladesh. I am currently available to collaborate on research projects, especially in bioinformatics, public health, and advanced data science applications.</p>      
-        </div>      
-    </section>      
-      
-    <!-- Research Interests Section -->      
-    <section id="interests" class="section">      
-        <div class="container">      
-            <h2>Research Interests</h2>      
-            <p>Optimization Techniques, High-Dimensional Data Analysis, Machine Learning, Data Mining, Brain Mapping, Bioinformatics and Statistical Genetics, Public Health, Environmental Statistics, Time Series Analysis, Statistical Modeling, Inferential Statistics, Big Data Analytics, Cloud-Based Data Solutions, Applied Data Science.</p>      
-        </div>      
-    </section>      
-      
-    <!-- Research & Work Section -->      
-    <section id="research" class="section">      
-        <div class="container">      
-            <h2>Research & Work</h2>      
-            <ul>      
-                <li><strong>Risk Factors of Geriatric Depression:</strong> Determinants of depressive symptoms among elderly Bangladeshi people.</li>      
-                <li><strong>Effect of Meteorological Indicators on Covid-19:</strong> A case study of Dhaka and Rajshahi regions.</li>      
-            </ul>      
-            <h3>Interested Projects:</h3>      
-            <ul>      
-                <li>Brain mapping and statistical genetics for bioinformatics applications.</li>      
-                <li>Optimization techniques and data imputation in statistical modeling.</li>      
-                <li>Time series analysis and public health trend forecasting.</li>      
-            </ul>      
-        </div>      
-    </section>      
-      
-    <!-- Resume Section -->      
-    <section id="resume" class="section">      
-        <div class="container">      
-            <h2>Resume</h2>      
-            <p>Download my detailed resume:</p>      
-            <a href="SonnetPodderCV.pdf" class="download-btn" download>Download Resume</a>      
-        </div>      
-    </section>      
-      
-    <!-- Portfolio Section -->      
-    <section id="portfolio" class="section">      
-        <div class="container">      
-            <h2>Portfolio</h2>      
-            <p>Explore some of my key accomplishments:</p>      
-            <ul>      
-                <li>Best Poster Award at National Statistics Day 2022</li>      
-                <li>Vice President of the District Student Club</li>      
-            </ul>      
-        </div>      
-    </section>      
-      
-    <!-- Contact Section -->      
-    <section id="contact" class="section">      
-        <div class="container">      
-            <h2>Contact</h2>      
-            <p>Connect with me:</p>      
-            <ul>      
-                <li>Email (Academic): <a href="mailto:16sta113@gstu.edu.bd">16sta113@gstu.edu.bd</a></li>      
-                <li>Email (Personal & Preferred): <a href="mailto:sonnetpodder42@gmail.com">sonnetpodder42@gmail.com</a></li>      
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/sonnet-podder-bsmrstu/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sonnet-podder-bsmrstu</a></li>      
-                <li>GitHub: <a href="https://github.com/Sonnet-Podder" target="_blank" rel="noopener noreferrer">github.com/Sonnet-Podder</a></li>      
-                <li>ResearchGate: <a href="https://www.researchgate.net/profile/Sonnet-Podder" target="_blank" rel="noopener noreferrer">ResearchGate Profile</a></li>      
-            </ul>      
-        </div>      
-    </section>      
-      
-    <!-- Footer -->      
-    <footer>      
-        <div class="container">      
-            <p>&copy; 2026 Sonnet Podder. All rights reserved.</p>      
-        </div>      
-    </footer>      
-</body>      
-      
+  <title>Sonnet Podder | Academic Portfolio for PhD Supervision</title>
+  <meta name="description" content="Academic portfolio of Sonnet Podder, researcher, statistician, data scientist, and machine learning enthusiast." />
+
+  <style>
+    :root {
+      --navy: #061426;
+      --navy-2: #08204a;
+      --blue: #0b63f6;
+      --blue-2: #1d4ed8;
+      --soft-blue: #eaf2ff;
+      --gold: #f59e0b;
+      --green: #0f766e;
+      --text: #0f172a;
+      --muted: #64748b;
+      --bg: #f8fbff;
+      --card: #ffffff;
+      --border: #dbe5f2;
+      --shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(37,99,235,0.12), transparent 28%),
+        linear-gradient(180deg, #f8fbff 0%, #edf4ff 100%);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(6, 20, 38, 0.97);
+      color: #fff;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+    }
+
+    .nav-inner {
+      max-width: 1240px;
+      margin: auto;
+      padding: 12px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 1.08rem;
+      white-space: nowrap;
+    }
+
+    .brand-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 11px;
+      background: linear-gradient(135deg, #60a5fa, #2563eb);
+      display: grid;
+      place-items: center;
+      box-shadow: 0 6px 14px rgba(37,99,235,0.35);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+      list-style: none;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #f8fafc;
+      font-size: 0.88rem;
+      font-weight: 700;
+      opacity: 0.92;
+    }
+
+    .nav-links a:hover { color: #93c5fd; }
+
+    .nav-cv {
+      background: var(--blue);
+      padding: 8px 13px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 0.88rem;
+      color: white;
+      white-space: nowrap;
+    }
+
+    .hero {
+      position: relative;
+      color: white;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 76% 28%, rgba(37,99,235,0.65), transparent 28%),
+        radial-gradient(circle at 18% 72%, rgba(59,130,246,0.35), transparent 35%),
+        linear-gradient(135deg, #07111f, #0b2c68 55%, #07111f);
+      min-height: 360px;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(147,197,253,0.16) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(147,197,253,0.16) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.75), transparent);
+      opacity: 0.45;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -90px;
+      top: -80px;
+      width: 520px;
+      height: 520px;
+      border-radius: 50%;
+      border: 1px solid rgba(147,197,253,0.26);
+      box-shadow: inset 0 0 70px rgba(37,99,235,0.20);
+      opacity: 0.75;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 1240px;
+      margin: auto;
+      padding: 48px 22px 42px;
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 42px;
+      align-items: center;
+    }
+
+    .photo-dial {
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      background: linear-gradient(145deg, rgba(255,255,255,0.96), rgba(226,232,240,0.96));
+      border: 6px solid rgba(255,255,255,0.95);
+      box-shadow:
+        0 18px 42px rgba(0,0,0,0.35),
+        inset 0 0 0 2px rgba(15,23,42,0.10);
+      display: grid;
+      place-items: center;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .photo-dial img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: none;
+    }
+
+    /*
+      TO ADD YOUR PHOTO:
+      1. Put your image inside the images folder.
+      2. Rename it as profile-photo.jpg.
+      3. Change display:none above to display:block.
+      4. Hide .photo-placeholder by changing display:grid to display:none.
+    */
+
+    .photo-placeholder {
+      color: #4b5563;
+      text-align: center;
+      padding: 20px;
+      font-weight: 800;
+      font-size: 1rem;
+      display: grid;
+      place-items: center;
+    }
+
+    .camera {
+      width: 52px;
+      height: 42px;
+      margin: 0 auto 10px;
+      border-radius: 9px;
+      background: #6b7280;
+      position: relative;
+    }
+
+    .camera::before {
+      content: "";
+      position: absolute;
+      left: 17px;
+      top: 10px;
+      width: 18px;
+      height: 18px;
+      background: #e5e7eb;
+      border-radius: 50%;
+      border: 4px solid #4b5563;
+    }
+
+    .camera::after {
+      content: "";
+      position: absolute;
+      left: 9px;
+      top: -7px;
+      width: 16px;
+      height: 8px;
+      border-radius: 5px 5px 0 0;
+      background: #6b7280;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.8rem, 6vw, 5rem);
+      line-height: 1;
+      margin-bottom: 14px;
+      letter-spacing: -1px;
+    }
+
+    .hero-subtitle {
+      color: #bfdbfe;
+      font-size: 1.23rem;
+      font-weight: 800;
+      margin-bottom: 18px;
+    }
+
+    .hero-text {
+      max-width: 820px;
+      color: #e5efff;
+      font-size: 1.02rem;
+      margin-bottom: 22px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .icon-btn {
+      width: 43px;
+      height: 43px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.18);
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    button.icon-btn { appearance: none; }
+
+    .icon-btn:hover { background: rgba(255,255,255,0.24); }
+
+    .hero-main-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      color: var(--navy);
+      padding: 11px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 900;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+    }
+
+    main {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 24px 22px 40px;
+    }
+
+    section { margin-bottom: 26px; }
+
+    .section-intro { color: var(--muted); margin: -6px 0 16px; max-width: 900px; }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.55rem;
+      margin: 0 0 18px;
+      color: var(--navy);
+      letter-spacing: -0.3px;
+    }
+
+    .section-title::before {
+      content: "";
+      width: 4px;
+      height: 30px;
+      border-radius: 99px;
+      background: var(--blue);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 26px;
+      align-items: stretch;
+    }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .about p { margin-bottom: 11px; }
+
+    .primary-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+      background: linear-gradient(135deg, var(--blue), var(--blue-2));
+      color: white;
+      padding: 11px 18px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 10px 18px rgba(37,99,235,0.25);
+    }
+
+    .education-card {
+      position: relative;
+      min-height: 100%;
+    }
+
+    .timeline {
+      border-left: 3px solid #dbeafe;
+      margin-left: 13px;
+      padding-left: 24px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin: 0 0 26px;
+    }
+
+    .timeline-item:last-child { margin-bottom: 0; }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -33px;
+      top: 6px;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: var(--blue);
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 2px #bfdbfe;
+    }
+
+    .timeline-item h3 {
+      font-size: 1rem;
+      margin-bottom: 3px;
+    }
+
+    .pill {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 0.86rem;
+      font-weight: 700;
+      background: #dbeafe;
+      color: #1e40af;
+    }
+
+    .pill.green { background: #dcfce7; color: #166534; }
+    .pill.gold { background: #fef3c7; color: #92400e; }
+
+    .snapshot-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .snapshot-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 17px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .snapshot-card b {
+      display: block;
+      font-size: 1.55rem;
+      color: var(--blue-2);
+      line-height: 1.1;
+    }
+
+    .snapshot-card span {
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .tag-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 11px;
+      box-shadow: 0 8px 18px rgba(15,23,42,0.06);
+      display: flex;
+      gap: 9px;
+      align-items: center;
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    .tag span {
+      color: var(--blue);
+      font-size: 1.14rem;
+      font-weight: 900;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .work-card, .result-card, .coding-card, .highlight-card, .contact-card, .skill-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      padding: 17px;
+      box-shadow: var(--shadow);
+      transition: 0.25s ease;
+    }
+
+    .work-card:hover, .result-card:hover, .coding-card:hover, .highlight-card:hover, .contact-card:hover, .skill-card:hover {
+      transform: translateY(-4px);
+      border-color: #bfdbfe;
+    }
+
+    .work-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: var(--soft-blue);
+      color: var(--blue);
+      font-size: 1.25rem;
+      margin-bottom: 13px;
+    }
+
+    .work-card h3, .result-card h3, .coding-card h3, .highlight-card h3, .skill-card h3 {
+      font-size: 1rem;
+      line-height: 1.25;
+      margin-bottom: 9px;
+    }
+
+    .work-card p, .result-card p, .coding-card p, .skill-card p {
+      color: #1f2937;
+      font-size: 0.92rem;
+    }
+
+    #work .card-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    #work .work-card {
+      padding: 22px;
+    }
+
+    #work .work-card h3 {
+      font-size: 1.12rem;
+      color: var(--navy-2);
+    }
+
+    #work .work-card p {
+      font-size: 0.94rem;
+      margin-bottom: 10px;
+    }
+
+    #work .detail-list li {
+      margin-bottom: 7px;
+    }
+
+
+    .detail-list {
+      margin: 11px 0 0 18px;
+      color: #334155;
+      font-size: 0.9rem;
+    }
+
+    .mini-tags {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .mini-tags span {
+      background: var(--soft-blue);
+      color: #1e40af;
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .custom-note {
+      background: #ecfeff;
+      border: 1px solid #a5f3fc;
+      border-left: 5px solid var(--green);
+      border-radius: 14px;
+      padding: 15px;
+      margin-bottom: 16px;
+      color: #0f172a;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .visual-frame {
+      height: 210px;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      background: #ffffff;
+      overflow: hidden;
+      margin-bottom: 12px;
+      padding: 8px;
+    }
+
+    .visual-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: none;
+    }
+
+    /*
+      TO USE YOUR OWN CHART IMAGE:
+      1. Put your image inside the images folder.
+      2. Example: images/fraud_roc_curve.png
+      3. Inside the related result card, change image display:none to display:block.
+      4. If you want to remove the placeholder SVG, delete the <svg> block.
+    */
+
+    .svg-chart { width: 100%; height: 100%; display: block; }
+
+    .result-card h3 {
+      font-size: 1rem;
+      color: var(--navy);
+    }
+
+    .result-meta {
+      color: var(--muted);
+      font-size: 0.84rem;
+      margin: 7px 0;
+    }
+
+    .result-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .small-btn {
+      display: inline-block;
+      padding: 9px 12px;
+      border-radius: 8px;
+      background: #f8fbff;
+      border: 1px solid #bfdbfe;
+      color: var(--blue);
+      text-decoration: none;
+      font-size: 0.86rem;
+      font-weight: 800;
+    }
+
+    .small-btn.disabled {
+      color: #64748b;
+      background: #f1f5f9;
+      border-color: #e2e8f0;
+      cursor: default;
+    }
+
+    .coding-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .coding-card {
+      min-height: 230px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .coding-logo {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #f59e0b;
+      margin: 8px 0;
+    }
+
+    .pdf-logo {
+      font-size: 2rem;
+      color: #dc2626;
+      margin: 8px 0;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .highlight-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .highlight-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .highlight-icon {
+      width: 45px;
+      height: 45px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      color: var(--blue);
+      background: var(--soft-blue);
+      font-size: 1.5rem;
+      flex: 0 0 auto;
+    }
+
+    .highlight-card p {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin: 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .contact-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 75px;
+      text-decoration: none;
+      color: var(--text);
+      width: 100%;
+      text-align: left;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    button.contact-card {
+      border: 1px solid var(--border);
+      background: var(--card);
+    }
+
+    .contact-card b {
+      display: block;
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+
+    .contact-card span {
+      color: #334155;
+      font-size: 0.78rem;
+      word-break: break-word;
+    }
+
+    .contact-icon {
+      width: 34px;
+      height: 34px;
+      flex: 0 0 auto;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      background: var(--soft-blue);
+      color: var(--blue);
+      font-weight: 900;
+    }
+
+    .copy-toast {
+      position: fixed;
+      left: 50%;
+      bottom: 28px;
+      transform: translateX(-50%) translateY(20px);
+      background: #061426;
+      color: white;
+      padding: 11px 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      box-shadow: 0 12px 26px rgba(0,0,0,0.28);
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.25s ease;
+      z-index: 999;
+    }
+
+    .copy-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    footer {
+      background: var(--navy);
+      color: #cbd5e1;
+      text-align: center;
+      padding: 20px;
+      margin-top: 25px;
+    }
+
+    .to-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      text-decoration: none;
+      font-weight: 900;
+      box-shadow: 0 12px 22px rgba(37,99,235,0.35);
+    }
+
+    @media (max-width: 1100px) {
+      .card-grid, .results-grid, .coding-grid, .contact-grid, .skills-grid { grid-template-columns: repeat(2, 1fr); }
+      .tag-grid { grid-template-columns: repeat(3, 1fr); }
+      .highlight-grid, .snapshot-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 760px) {
+      .nav-inner { flex-direction: column; }
+      .nav-links { justify-content: center; gap: 12px; }
+      .hero-inner { grid-template-columns: 1fr; gap: 20px; text-align: center; }
+      .hero-actions { justify-content: center; }
+      .two-col { grid-template-columns: 1fr; }
+      .tag-grid, .card-grid, #work .card-grid, .results-grid, .coding-grid, .highlight-grid, .contact-grid, .skills-grid, .snapshot-grid { grid-template-columns: 1fr; }
+      .photo-dial { width: 190px; height: 190px; }
+      main { padding: 20px 15px 35px; }
+      .panel, .work-card, .result-card, .coding-card, .highlight-card, .contact-card, .skill-card { box-shadow: 0 8px 20px rgba(15,23,42,0.08); }
+    }
+  </style>
+</head>
+
+<body id="top">
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="brand-icon">🎓</div>
+        <span>Sonnet Podder</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#fit">Research Fit</a></li>
+        <li><a href="#research">Research Interests</a></li>
+        <li><a href="#work">Projects & Works</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#coding">Coding</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cv" href="SonnetPodderCV.pdf" target="_blank">⬇ Download CV</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="photo-dial">
+        <img src="images/profile-photo.jpg" alt="Sonnet Podder profile photo" />
+        <div class="photo-placeholder">
+          <div>
+            <div class="camera"></div>
+            Profile<br />Photo
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1>Sonnet Podder</h1>
+        <p class="hero-subtitle">Statistician | Data Scientist | Machine Learning Researcher | Prospective PhD Applicant</p>
+        <p class="hero-text">
+          Prospective PhD applicant with a strong Statistics background and applied MSc experience in machine learning, big data analytics, explainable AI, public health analytics, fraud detection and research-oriented coding workflows.
+        </p>
+        <div class="hero-actions">
+          <a class="hero-main-btn" href="#results">View Results</a>
+          <a class="hero-main-btn" href="#coding">Coding Portfolio</a>
+          <button class="icon-btn copy-hero-email" type="button" data-copy="sonnet.podder@northumbria.ac.uk" title="Copy email">✉</button>
+          <a class="icon-btn" href="https://linkedin.com/in/sonnet-podder-bsmrstu" target="_blank" title="LinkedIn">in</a>
+          <a class="icon-btn" href="https://github.com/Sonnet-Podder" target="_blank" title="GitHub">GH</a>
+          <a class="icon-btn" href="#contact" title="ResearchGate">RG</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="two-col">
+      <div class="about">
+        <h2 class="section-title">About Me</h2>
+        <p>I am <strong>Sonnet Podder</strong>, currently pursuing an <strong>MSc in Big Data and Data Science Technology with Advanced Practice</strong> at <strong>Northumbria University London</strong>.</p>
+        <p>I hold Bachelor and Master degrees in Statistics from Gopalganj Science and Technology University, Bangladesh.</p>
+        <p>My academic interests lie in statistical learning, machine learning, explainable AI, public health analytics, transportation safety, uncertainty quantification, financial risk modelling and data-driven decision-making.</p>
+        <p>My recent MSc assessment work includes credit card fraud detection, drug-related death analysis, Tableau dashboard development, cloud-oriented machine learning, and statistical modelling projects.</p>
+        <a class="primary-btn" href="SonnetPodderCV.pdf" target="_blank">👤 View Full Profile</a>
+      </div>
+
+      <div class="panel education-card">
+        <h3>🎓 Education</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Northumbria University London, UK</h3>
+            <p>MSc Big Data and Data Science Technology (Advanced Practice)</p>
+            <span class="pill">January 2026 – January 2028</span>
+          </div>
+          <div class="timeline-item">
+            <h3>Gopalganj Science and Technology University, Bangladesh</h3>
+            <p>MSc in Statistics</p>
+            <span class="pill green">Completed: 2023</span>
+          </div>
+          <div class="timeline-item">
+            <h3>Gopalganj Science and Technology University, Bangladesh</h3>
+            <p>BSc in Statistics</p>
+            <span class="pill green">Completed: 2022</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fit">
+      <h2 class="section-title">Research Fit for Professors</h2>
+      <div class="card-grid">
+        <div class="work-card">
+          <div class="work-icon">🎯</div>
+          <h3>Supervision Fit</h3>
+          <p>I combine formal statistical training with applied machine learning and data science practice.</p>
+          <ul class="detail-list">
+            <li>Strong foundation in statistical modelling.</li>
+            <li>Current experience in ML, big data analytics and cloud-based workflows.</li>
+            <li>Interest in reliable and interpretable AI for real-world decision-making.</li>
+          </ul>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">🔬</div>
+          <h3>Preferred Research Themes</h3>
+          <p>My target research areas are connected with applied AI, statistics and public impact.</p>
+          <ul class="detail-list">
+            <li>Explainable AI and statistical learning.</li>
+            <li>Public health analytics and risk prediction.</li>
+            <li>Transportation safety and uncertainty quantification.</li>
+          </ul>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">📈</div>
+          <h3>Current Development Goal</h3>
+          <p>I aim to strengthen my profile through reproducible coding, academic writing and research collaboration.</p>
+          <ul class="detail-list">
+            <li>Build research-quality notebooks and reports.</li>
+            <li>Prepare future manuscripts from applied projects.</li>
+            <li>Collaborate with supervisors and research teams.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="snapshot">
+      <h2 class="section-title">Academic Snapshot</h2>
+      <div class="snapshot-grid">
+        <div class="snapshot-card"><b>5+</b><span>Applied research and analytics projects</span></div>
+        <div class="snapshot-card"><b>12</b><span>Fraud detection model combinations evaluated</span></div>
+        <div class="snapshot-card"><b>12,964</b><span>Drug-related death records analysed</span></div>
+        <div class="snapshot-card"><b>2022</b><span>Best Poster Award recognition</span></div>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2 class="section-title">Research Interests</h2>
+      <div class="tag-grid">
+        <div class="tag"><span>⌘</span> Statistical Learning</div>
+        <div class="tag"><span>☼</span> Machine Learning</div>
+        <div class="tag"><span>▣</span> Explainable AI</div>
+        <div class="tag"><span>△</span> Bayesian Statistics</div>
+        <div class="tag"><span>▥</span> Big Data Analytics</div>
+        <div class="tag"><span>⌬</span> Deep Learning</div>
+        <div class="tag"><span>⌁</span> Predictive Modelling</div>
+        <div class="tag"><span>⚕</span> Public Health Analytics</div>
+        <div class="tag"><span>▤</span> Transportation Safety</div>
+        <div class="tag"><span>♙</span> Risk Analysis</div>
+        <div class="tag"><span>◌</span> Uncertainty Quantification</div>
+        <div class="tag"><span>✣</span> Bioinformatics</div>
+        <div class="tag"><span>⌁</span> Time Series Analysis</div>
+        <div class="tag"><span>☁</span> Cloud-based ML</div>
+        <div class="tag"><span>✧</span> Generative AI</div>
+        <div class="tag"><span>▧</span> Data Mining</div>
+        <div class="tag"><span>⟡</span> Optimization Techniques</div>
+        <div class="tag"><span>⟠</span> Statistical Genetics</div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2 class="section-title">Projects & Works</h2>
+      <p class="section-intro">
+        This section presents my recent and previous academic projects in a clear way for supervisors, professors, and collaborators.
+        The projects are sorted from recent MSc work to earlier research experience.
+      </p>
+
+      <div class="card-grid">
+        <div class="work-card">
+          <div class="work-icon">▣</div>
+          <h3>Credit Card Fraud Detection Using Machine Learning</h3>
+          <p><strong>Project type:</strong> MSc Machine Learning on Cloud assessment and group project contribution.</p>
+          <p>This project focused on detecting fraudulent financial transactions from a highly imbalanced credit card dataset. The main challenge was that fraud cases were extremely rare compared with legitimate transactions, so normal accuracy was not enough to evaluate performance.</p>
+          <ul class="detail-list">
+            <li><strong>Methods used:</strong> Logistic Regression, Random Forest, XGBoost and Neural Network.</li>
+            <li><strong>Imbalance handling:</strong> SMOTE, random undersampling and cost-sensitive learning.</li>
+            <li><strong>Evaluation:</strong> Recall, Precision, F1-score, ROC-AUC and PR-AUC.</li>
+            <li><strong>Technical contribution:</strong> model selection, baseline comparison, cross-validation, hyperparameter tuning and final evaluation.</li>
+            <li><strong>Key learning:</strong> PR-AUC and Recall are more meaningful than accuracy when the target class is very rare.</li>
+          </ul>
+          <p><strong>Value for research:</strong> This project strengthened my understanding of imbalanced classification, financial risk modelling, reproducible coding and responsible machine learning evaluation.</p>
+          <div class="mini-tags"><span>Python</span><span>XGBoost</span><span>SMOTE</span><span>PR-AUC</span><span>Cloud ML</span></div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">⌂</div>
+          <h3>Big Data Analytics of Drug-Related Deaths</h3>
+          <p><strong>Project type:</strong> MSc Big Data Analytics assessment using Python.</p>
+          <p>This project analysed accidental drug-related death records from 2012 to 2024. The purpose was to identify demographic patterns, substance-related trends and statistically meaningful relationships in public health data.</p>
+          <ul class="detail-list">
+            <li><strong>Dataset:</strong> 12,964 records and 49 variables related to accidental drug-related deaths.</li>
+            <li><strong>Tools:</strong> Python, Pandas, NumPy, Matplotlib, Seaborn and SciPy.</li>
+            <li><strong>Analysis:</strong> data cleaning, missing value handling, exploratory data analysis and visualisation.</li>
+            <li><strong>Statistical testing:</strong> Chi-square test and Independent Sample t-test.</li>
+            <li><strong>Focus areas:</strong> age distribution, sex differences, fentanyl detection and overdose trend patterns.</li>
+          </ul>
+          <p><strong>Value for research:</strong> This work shows my ability to connect statistical methods with real public health questions and communicate results through visual evidence.</p>
+          <div class="mini-tags"><span>Python</span><span>Public Health</span><span>Hypothesis Testing</span><span>EDA</span></div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">▦</div>
+          <h3>Business Intelligence Dashboard Using Tableau</h3>
+          <p><strong>Project type:</strong> MSc Business Intelligence and visual analytics task.</p>
+          <p>This project used Tableau to create interactive dashboards from Olympic Games data. The dashboard helped explore medal patterns and relationships across city, season, athlete age and gender.</p>
+          <ul class="detail-list">
+            <li><strong>Dashboard focus:</strong> medal counts by city, athlete age and medal type, seasonal differences and gender-based medal distribution.</li>
+            <li><strong>Tool used:</strong> Tableau for visualisation and dashboard development.</li>
+            <li><strong>Design approach:</strong> clear visual layout, interactive filters and connected charts.</li>
+            <li><strong>Outcome:</strong> created a user-friendly dashboard that allowed viewers to explore patterns dynamically.</li>
+          </ul>
+          <p><strong>Value for research:</strong> This project improved my ability to present analytical findings visually for non-technical audiences and decision-makers.</p>
+          <div class="mini-tags"><span>Tableau</span><span>Dashboard</span><span>BI</span><span>Visual Analytics</span></div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">☁</div>
+          <h3>Machine Learning on Cloud: Technical Evaluation and Reflection</h3>
+          <p><strong>Project type:</strong> MSc individual technical evaluation report.</p>
+          <p>This work critically evaluated the fraud detection machine learning project from a technical and professional perspective. It explained the reasoning behind preprocessing, feature engineering, scaling, imbalance handling, model selection and ethical issues.</p>
+          <ul class="detail-list">
+            <li><strong>Technical focus:</strong> duplicate removal, log transformation, feature engineering and scaling.</li>
+            <li><strong>Model evaluation:</strong> comparison of models and discussion of false positives and missed fraud cases.</li>
+            <li><strong>Professional reflection:</strong> teamwork, challenges, lessons learned and ethical considerations.</li>
+            <li><strong>Research awareness:</strong> discussed interpretability, fairness, model monitoring and real-world deployment limitations.</li>
+          </ul>
+          <p><strong>Value for research:</strong> This experience helped me think beyond model accuracy and consider reproducibility, explainability and responsible AI deployment.</p>
+          <div class="mini-tags"><span>Cloud ML</span><span>Reflection</span><span>Ethics</span><span>Model Evaluation</span></div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">◎</div>
+          <h3>Geriatric Depression Risk Factor Modelling</h3>
+          <p><strong>Project type:</strong> Ongoing research manuscript under preparation.</p>
+          <p>This research focuses on identifying risk factors and determinants of depressive symptoms among elderly Bangladeshi people. It connects public health, statistical learning and machine learning to study a socially important health issue.</p>
+          <ul class="detail-list">
+            <li><strong>Research aim:</strong> identify socio-demographic and health-related determinants of geriatric depression.</li>
+            <li><strong>Analytical approach:</strong> statistical learning and machine learning methods.</li>
+            <li><strong>Application area:</strong> public health and elderly wellbeing in Bangladesh.</li>
+            <li><strong>Current status:</strong> manuscript under preparation.</li>
+          </ul>
+          <p><strong>Value for research:</strong> This project reflects my long-term interest in using data science to support public health research and policy-relevant decision-making.</p>
+          <div class="mini-tags"><span>Public Health</span><span>Machine Learning</span><span>Bangladesh</span><span>Ongoing Research</span></div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">☼</div>
+          <h3>Meteorological Indicators and COVID-19 Transmission in Bangladesh</h3>
+          <p><strong>Project type:</strong> MSc Statistics thesis-based research project.</p>
+          <p>This project investigated whether meteorological indicators such as temperature and rainfall were associated with COVID-19 transmission in Bangladesh, focusing on Dhaka and Rajshahi regions.</p>
+          <ul class="detail-list">
+            <li><strong>Methods used:</strong> Spearman correlation, Kendall correlation, OLS regression and Quantile Regression.</li>
+            <li><strong>Variables:</strong> confirmed COVID-19 cases, temperature indicators and rainfall.</li>
+            <li><strong>Software/tools:</strong> Python, R and SPSS.</li>
+            <li><strong>Research contribution:</strong> applied statistical modelling under non-normal distribution conditions.</li>
+          </ul>
+          <p><strong>Value for research:</strong> This work strengthened my foundation in applied statistics, environmental statistics and public health data analysis.</p>
+          <div class="mini-tags"><span>COVID-19</span><span>Quantile Regression</span><span>Environmental Statistics</span><span>R</span><span>SPSS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results">
+      <h2 class="section-title">Results & Visual Presentations</h2>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="visual-frame">
+            <img src="images/fraud_roc_curve.png" alt="Fraud detection ROC curve" />
+            <svg class="svg-chart" viewBox="0 0 240 160" aria-label="ROC curve chart">
+              <rect width="240" height="160" fill="#ffffff"/>
+              <line x1="35" y1="125" x2="220" y2="125" stroke="#cbd5e1" stroke-width="1"/>
+              <line x1="35" y1="125" x2="35" y2="20" stroke="#cbd5e1" stroke-width="1"/>
+              <path d="M35 125 C55 65, 80 40, 220 22" fill="none" stroke="#22c55e" stroke-width="3"/>
+              <path d="M35 125 C68 80, 105 55, 220 30" fill="none" stroke="#ef4444" stroke-width="3"/>
+              <path d="M35 125 C85 95, 125 72, 220 42" fill="none" stroke="#f59e0b" stroke-width="3"/>
+              <path d="M35 125 L220 22" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+              <text x="54" y="22" font-size="10" fill="#0f172a">ROC-AUC comparison</text>
+            </svg>
+          </div>
+          <h3>Fraud Detection: Model Performance</h3>
+          <p class="result-meta">Figure: images/fraud_roc_curve.png</p>
+          <p>XGBoost and Random Forest showed stronger performance than simple baseline models for fraud detection.</p>
+          <div class="result-actions">
+            <a class="small-btn" href="https://colab.research.google.com/drive/15ZIlsyKcB8VTUNlI1gbWcEfPU4owLfqI?usp=sharing" target="_blank">Open Colab</a>
+            <a class="small-btn" href="reports/fraud-detection-report.pdf" target="_blank">View PDF</a>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="visual-frame">
+            <img src="images/fraud_pr_curve.png" alt="Fraud detection precision recall curve" />
+            <svg class="svg-chart" viewBox="0 0 240 160" aria-label="precision recall curve">
+              <rect width="240" height="160" fill="#ffffff"/>
+              <line x1="35" y1="125" x2="220" y2="125" stroke="#cbd5e1"/>
+              <line x1="35" y1="125" x2="35" y2="20" stroke="#cbd5e1"/>
+              <path d="M35 28 C70 35, 105 48, 220 70" fill="none" stroke="#22c55e" stroke-width="3"/>
+              <path d="M35 30 C75 50, 120 73, 220 100" fill="none" stroke="#ef4444" stroke-width="3"/>
+              <path d="M35 32 C80 58, 145 95, 220 118" fill="none" stroke="#3b82f6" stroke-width="3"/>
+              <text x="52" y="22" font-size="10" fill="#0f172a">PR-AUC comparison</text>
+            </svg>
+          </div>
+          <h3>Precision–Recall Evaluation</h3>
+          <p class="result-meta">Figure: images/fraud_pr_curve.png</p>
+          <p>PR-AUC was used as a key metric because the fraud dataset was highly imbalanced.</p>
+          <div class="result-actions">
+            <a class="small-btn" href="https://colab.research.google.com/drive/15ZIlsyKcB8VTUNlI1gbWcEfPU4owLfqI?usp=sharing" target="_blank">Open Colab</a>
+            <a class="small-btn" href="reports/fraud-detection-report.pdf" target="_blank">View PDF</a>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="visual-frame">
+            <img src="images/confusion_matrix.png" alt="Fraud detection confusion matrix" />
+            <svg class="svg-chart" viewBox="0 0 240 160" aria-label="confusion matrix">
+              <rect width="240" height="160" fill="#ffffff"/>
+              <rect x="48" y="30" width="65" height="45" fill="#dbeafe" stroke="#2563eb"/>
+              <rect x="113" y="30" width="65" height="45" fill="#bfdbfe" stroke="#2563eb"/>
+              <rect x="48" y="75" width="65" height="45" fill="#93c5fd" stroke="#2563eb"/>
+              <rect x="113" y="75" width="65" height="45" fill="#60a5fa" stroke="#2563eb"/>
+              <text x="68" y="56" font-size="12" fill="#0f172a">TN</text>
+              <text x="134" y="56" font-size="12" fill="#0f172a">FP</text>
+              <text x="69" y="101" font-size="12" fill="#0f172a">FN</text>
+              <text x="135" y="101" font-size="12" fill="#0f172a">TP</text>
+              <text x="55" y="138" font-size="10" fill="#0f172a">Confusion matrix</text>
+            </svg>
+          </div>
+          <h3>Threshold and Error Analysis</h3>
+          <p class="result-meta">Figure: images/confusion_matrix.png</p>
+          <p>Threshold tuning was considered to reduce missed fraud while managing false alerts.</p>
+          <div class="result-actions">
+            <a class="small-btn" href="https://colab.research.google.com/drive/15ZIlsyKcB8VTUNlI1gbWcEfPU4owLfqI?usp=sharing" target="_blank">Open Colab</a>
+            <a class="small-btn" href="reports/fraud-detection-report.pdf" target="_blank">View PDF</a>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="visual-frame">
+            <img src="images/drug_deaths_trend.png" alt="Drug related deaths trend chart" />
+            <svg class="svg-chart" viewBox="0 0 240 160" aria-label="line trend chart">
+              <rect width="240" height="160" fill="#ffffff"/>
+              <line x1="35" y1="125" x2="220" y2="125" stroke="#cbd5e1"/>
+              <line x1="35" y1="125" x2="35" y2="20" stroke="#cbd5e1"/>
+              <polyline points="35,118 52,108 68,100 84,92 100,70 116,82 132,58 148,75 164,55 180,49 196,35 215,22" fill="none" stroke="#2563eb" stroke-width="3"/>
+              <circle cx="196" cy="35" r="4" fill="#2563eb"/>
+              <circle cx="215" cy="22" r="4" fill="#2563eb"/>
+              <text x="58" y="22" font-size="10" fill="#0f172a">Trend over years</text>
+            </svg>
+          </div>
+          <h3>Drug-Related Deaths Trend</h3>
+          <p class="result-meta">Figure: images/drug_deaths_trend.png</p>
+          <p>Overdose trend analysis showed changes in accidental drug-related deaths over time.</p>
+          <div class="result-actions">
+            <a class="small-btn" href="https://colab.research.google.com/drive/1HIj6G1iceQ3fjmqviPbHABvj0MhdSsuc?usp=sharing" target="_blank">Open Colab</a>
+            <a class="small-btn" href="reports/big-data-analytics-report.pdf" target="_blank">View PDF</a>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="visual-frame">
+            <img src="images/age_distribution.png" alt="Age distribution chart" />
+            <svg class="svg-chart" viewBox="0 0 240 160" aria-label="histogram">
+              <rect width="240" height="160" fill="#ffffff"/>
+              <line x1="35" y1="125" x2="220" y2="125" stroke="#cbd5e1"/>
+              <rect x="55" y="105" width="15" height="20" fill="#93c5fd"/>
+              <rect x="73" y="85" width="15" height="40" fill="#60a5fa"/>
+              <rect x="91" y="58" width="15" height="67" fill="#3b82f6"/>
+              <rect x="109" y="42" width="15" height="83" fill="#2563eb"/>
+              <rect x="127" y="55" width="15" height="70" fill="#3b82f6"/>
+              <rect x="145" y="78" width="15" height="47" fill="#60a5fa"/>
+              <rect x="163" y="100" width="15" height="25" fill="#93c5fd"/>
+              <text x="62" y="22" font-size="10" fill="#0f172a">Age distribution</text>
+            </svg>
+          </div>
+          <h3>Age Distribution Analysis</h3>
+          <p class="result-meta">Figure: images/age_distribution.png</p>
+          <p>Age distribution analysis helped identify demographic patterns in public health data.</p>
+          <div class="result-actions">
+            <a class="small-btn" href="https://colab.research.google.com/drive/1HIj6G1iceQ3fjmqviPbHABvj0MhdSsuc?usp=sharing" target="_blank">Open Colab</a>
+            <a class="small-btn" href="reports/big-data-analytics-report.pdf" target="_blank">View PDF</a>
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="visual-frame">
+            <img src="images/tableau_dashboard.png" alt="Tableau dashboard preview" />
+            <svg class="svg-chart" viewBox="0 0 240 160" aria-label="dashboard placeholder">
+              <rect width="240" height="160" fill="#ffffff"/>
+              <rect x="25" y="25" width="80" height="50" fill="#dbeafe" stroke="#2563eb"/>
+              <rect x="118" y="25" width="90" height="50" fill="#dcfce7" stroke="#16a34a"/>
+              <rect x="25" y="88" width="80" height="48" fill="#fef3c7" stroke="#f59e0b"/>
+              <rect x="118" y="88" width="90" height="48" fill="#fee2e2" stroke="#ef4444"/>
+              <text x="44" y="54" font-size="10">Medals</text>
+              <text x="142" y="54" font-size="10">Age</text>
+              <text x="45" y="116" font-size="10">City</text>
+              <text x="142" y="116" font-size="10">Gender</text>
+            </svg>
+          </div>
+          <h3>Tableau Dashboard Preview</h3>
+          <p class="result-meta">Figure: images/tableau_dashboard.png</p>
+          <p>Interactive dashboards presented Olympic medal patterns by city, season, age and gender.</p>
+          <div class="result-actions">
+            <span class="small-btn disabled">Dashboard link coming soon</span>
+            <a class="small-btn" href="reports/tableau-dashboard-report.pdf" target="_blank">View PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="coding">
+      <h2 class="section-title">Coding Portfolio</h2>
+      <div class="coding-grid">
+        <div class="coding-card">
+          <div>
+            <h3>Credit Card Fraud Detection<br />(Google Colab)</h3>
+            <div class="coding-logo">CO</div>
+            <p>Complete code for preprocessing, feature engineering, imbalance handling, model comparison, cross-validation and evaluation.</p>
+            <div class="mini-tags"><span>Python</span><span>XGBoost</span><span>SMOTE</span></div>
+          </div>
+          <a class="small-btn" href="https://colab.research.google.com/drive/15ZIlsyKcB8VTUNlI1gbWcEfPU4owLfqI?usp=sharing" target="_blank">Open in Colab ↗</a>
+        </div>
+
+        <div class="coding-card">
+          <div>
+            <h3>Drug-Related Death Analysis<br />(Google Colab)</h3>
+            <div class="coding-logo">CO</div>
+            <p>Python notebook for data cleaning, EDA, visualisation, hypothesis testing and public health interpretation.</p>
+            <div class="mini-tags"><span>Pandas</span><span>SciPy</span><span>EDA</span></div>
+          </div>
+          <a class="small-btn" href="https://colab.research.google.com/drive/1HIj6G1iceQ3fjmqviPbHABvj0MhdSsuc?usp=sharing" target="_blank">Open in Colab ↗</a>
+        </div>
+
+        <div class="coding-card">
+          <div>
+            <h3>Fraud Detection Report<br />(PDF)</h3>
+            <div class="pdf-logo">▣</div>
+            <p>Detailed methodology, results, model comparison, limitations and interpretation.</p>
+            <div class="mini-tags"><span>Report</span><span>ML</span><span>Evaluation</span></div>
+          </div>
+          <a class="small-btn" href="reports/fraud-detection-report.pdf" target="_blank">View PDF ↗</a>
+        </div>
+
+        <div class="coding-card">
+          <div>
+            <h3>LD7186 Big Data Analytics<br />(PDF)</h3>
+            <div class="pdf-logo">▣</div>
+            <p>Full analytical report with Python analysis, statistical testing, Tableau dashboard and findings.</p>
+            <div class="mini-tags"><span>Python</span><span>Tableau</span><span>Statistics</span></div>
+          </div>
+          <a class="small-btn" href="reports/big-data-analytics-report.pdf" target="_blank">View PDF ↗</a>
+        </div>
+
+        <div class="coding-card">
+          <div>
+            <h3>Tableau Dashboard<br />(BI Project)</h3>
+            <div class="pdf-logo">✣</div>
+            <p>Interactive dashboard for Olympic data analysis. Add your Tableau Public or PDF dashboard link here.</p>
+            <div class="mini-tags"><span>Tableau</span><span>Dashboard</span><span>BI</span></div>
+          </div>
+          <span class="small-btn disabled">Dashboard link coming soon</span>
+        </div>
+
+        <div class="coding-card">
+          <div>
+            <h3>Future Project Slot<br />(Customizable)</h3>
+            <div class="pdf-logo">＋</div>
+            <p>Use this card for a new notebook, GitHub repository, PDF, dashboard or publication-related project.</p>
+            <div class="mini-tags"><span>Custom</span><span>GitHub</span><span>PDF</span></div>
+          </div>
+          <span class="small-btn disabled">Project link coming soon</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Programming</h3><p>Python, R, SQL, C</p></div>
+        <div class="skill-card"><h3>Machine Learning</h3><p>Scikit-learn, XGBoost, TensorFlow, Neural Networks, Feature Engineering, Hyperparameter Tuning, Cross Validation</p></div>
+        <div class="skill-card"><h3>Statistics</h3><p>Regression, Quantile Regression, Hypothesis Testing, Non-parametric Methods, Statistical Learning, Inferential Statistics</p></div>
+        <div class="skill-card"><h3>Analytics & Visualisation</h3><p>Pandas, NumPy, SciPy, Matplotlib, Seaborn, Tableau, Power BI</p></div>
+        <div class="skill-card"><h3>Research Tools</h3><p>Jupyter Notebook, Google Colab, SPSS, STATA, Minitab, EndNote, Zotero</p></div>
+        <div class="skill-card"><h3>Cloud & Professional Tools</h3><p>AWS, cloud-based ML workflows, reproducible notebooks, dashboard reporting and academic documentation</p></div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2 class="section-title">Publications & Manuscripts</h2>
+      <div class="card-grid">
+        <div class="work-card">
+          <div class="work-icon">📄</div>
+          <h3>Machine Learning-Based Identification of Risk Factors and Determinants of Depressive Symptoms Among Elderly Bangladeshi Population</h3>
+          <p><strong>Status:</strong> Manuscript under preparation.</p>
+          <ul class="detail-list">
+            <li>Focuses on public health, elderly wellbeing and predictive modelling.</li>
+            <li>Uses statistical learning and machine learning to examine depressive symptom patterns.</li>
+            <li>Current research direction for future academic publication.</li>
+          </ul>
+          <div class="mini-tags"><span>Current Manuscript</span><span>Public Health</span><span>Machine Learning</span></div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-icon">🌦</div>
+          <h3>Statistical Analysis of Meteorological Influence on COVID-19 Transmission in Bangladesh</h3>
+          <p><strong>Status:</strong> Thesis-based research project.</p>
+          <ul class="detail-list">
+            <li>Analysed COVID-19 confirmed cases with temperature and rainfall indicators.</li>
+            <li>Applied correlation analysis, OLS regression and quantile regression.</li>
+            <li>Focused on Dhaka and Rajshahi regional data.</li>
+          </ul>
+          <div class="mini-tags"><span>COVID-19</span><span>Quantile Regression</span><span>Environmental Statistics</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2 class="section-title">Portfolio Highlights</h2>
+      <div class="highlight-grid">
+        <div class="highlight-card">
+          <div class="highlight-icon">🏆</div>
+          <div><h3>Best Poster Award</h3><p>National Statistics Day 2022</p></div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">👥</div>
+          <div><h3>Vice President</h3><p>District Student Welfare Association</p></div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">▤</div>
+          <div><h3>Research Projects</h3><p>5+ completed or ongoing projects</p></div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">&lt;/&gt;</div>
+          <div><h3>Coding Notebooks</h3><p>Colab notebooks and analytical reports</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <button class="contact-card contact-copy" type="button" data-copy="sonnet.podder@northumbria.ac.uk">
+          <div class="contact-icon">✉</div>
+          <div><b>Academic Email</b><span>sonnet.podder@northumbria.ac.uk</span></div>
+        </button>
+        <button class="contact-card contact-copy" type="button" data-copy="sonnetpodder42@gmail.com">
+          <div class="contact-icon">✉</div>
+          <div><b>Personal Email</b><span>sonnetpodder42@gmail.com</span></div>
+        </button>
+        <a class="contact-card" href="https://linkedin.com/in/sonnet-podder-bsmrstu" target="_blank" rel="noopener">
+          <div class="contact-icon">in</div>
+          <div><b>LinkedIn</b><span>linkedin.com/in/sonnet-podder-bsmrstu</span></div>
+        </a>
+        <a class="contact-card" href="https://github.com/Sonnet-Podder" target="_blank" rel="noopener">
+          <div class="contact-icon">GH</div>
+          <div><b>GitHub</b><span>github.com/Sonnet-Podder</span></div>
+        </a>
+        <a class="contact-card" href="#" target="_blank" rel="noopener">
+          <div class="contact-icon">RG</div>
+          <div><b>ResearchGate</b><span>ResearchGate Profile</span></div>
+        </a>
+      </div>
+      <div id="copyToast" class="copy-toast">Email copied</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Sonnet Podder. All rights reserved.</p>
+  </footer>
+
+  <a class="to-top" href="#top">↑</a>
+
+  <script>
+    function showCopyToast() {
+      const toast = document.getElementById("copyToast");
+      if (!toast) return;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 1600);
+    }
+
+    async function copyText(text) {
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (error) {
+        const tempInput = document.createElement("input");
+        tempInput.value = text;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+      }
+      showCopyToast();
+    }
+
+    document.querySelectorAll("[data-copy]").forEach((item) => {
+      item.addEventListener("click", () => copyText(item.getAttribute("data-copy")));
+    });
+  </script>
+
+</body>
 </html>
